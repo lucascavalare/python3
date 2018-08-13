@@ -37,10 +37,10 @@ def code_layout():
           Never mix tabs and spaces 
                In fact, just use spaces. 
      """ 
-     line_length = "Limit all lines to a maximum of 79 characters, for \ 
-          big blocks of text 72 chars is recommended. You can use the \ 
-          implied line continuation inside () [] and {} or a backslash \ 
-          to wrap long lines of text." 
+     line_length = """Limit all lines to a maximum of 79 characters, 
+          for big blocks of text 72 chars is recommended. You can use the 
+          implied line continuation inside () [] and {} or a backslash 
+          to wrap long lines of text."""
      # Always keep comments up to date when the code changes, 
      # delete old and irrelevant comments. 
      # Comments should be complete grammatical statements. 

@@ -1,3 +1,3 @@
 # Python3
-  */basics
+  */basics*/
     In basics dir there are some basics examples about starting with Python. 

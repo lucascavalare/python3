@@ -1,4 +1,4 @@
 # Python3
   
   # basics
-    * In # basics dir there are some basics examples about starting with Python. 
+    basics dir has some basics examples about starting with Python. All files have descriptions about the problem they do solve. 

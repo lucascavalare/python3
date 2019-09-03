@@ -8,6 +8,6 @@ setup(
         py_module      = ['nester'],
         author         = 'lfcpython',
         author_email   = 'lucascavalare@gmail.com',
-        url            = ''
+        url            = '',
         description    = 'A simple printer of nested lists',
      )  

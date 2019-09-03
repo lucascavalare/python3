@@ -9,5 +9,5 @@ setup(
         author         = 'lfcpython',
         author_email   = 'lucascavalare@gmail.com',
         url            = ''
-        description.   = 'A simple printer of nested lists',
+        description    = 'A simple printer of nested lists',
      )  

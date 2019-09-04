@@ -8,14 +8,17 @@
     - nester folder has an implementation of functions, modules, and a distribution. 
       A distribution is prepared and built on local enviromnent but is capable to be run everywhere. 
       
-      *build*
+      Build
       - The build consists of setup.py with smart requirements:
-        $ python3 setup.py sdist
+          
+          $ python3 setup.py sdist
       
-      *install*
+      Install
       - The installation:
-        $ python3 setup.py install
+          
+          $ python3 setup.py install
       
-      *importing*
+      Importing
       - Simply import the module at the IDLE or via Interactive Shell to use it:
-        $ import nester_function
+          
+          $ import nester_function

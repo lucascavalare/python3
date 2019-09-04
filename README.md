@@ -1,16 +1,16 @@
 # Python3
   
-  # *basics*
+   # *basics*
     - basics folder has some basics examples about starting with Python. 
       All files have descriptions about the problem.
 
-  # *nester*
+   # *nester*
     - nester folder has an implementation of functions, modules, and a distribution. 
       A distribution is prepared and built on local enviromnent but is capable to be run everywhere. 
-      *build*
+      # *build*
       - The build consists of setup.py with smart requirements:
         $ python3 setup.py sdist
-      *install*
+      # *install*
       - The installation:
         $ python3 setup.py install
       *importing*

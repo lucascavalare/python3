@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(
-        name           = 'nester',
+        name           = 'nester_function',
         version        = '1.0.0',
         py_module      = ['nester'],
         author         = 'lfcpython',

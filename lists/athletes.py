@@ -31,9 +31,35 @@ with open('sarah.txt') as Sarah:
     data4 = Sarah.readline()
     Sarah = data4.strip().split(',')
     
-'''Create a new list by specifying the transformation that is applied 
-   to each of the data items within an existing list.'''
-print(sorted([sanitize(t) for t in James]))
-print(sorted([sanitize(t) for t in Julie]))
-print(sorted([sanitize(t) for t in Mikey]))
-print(sorted([sanitize(t) for t in Sarah]))
+''' Replaces each of the data items within unordered and non-uniform data with the sorted, sanitized copy.'''
+James = sorted([sanitize(t) for t in James]))
+Julie = sorted([sanitize(t) for t in Julie]))
+Mikey = sorted([sanitize(t) for t in Mikey]))
+Sarah = sorted([sanitize(t) for t in Sarah]))
+
+''' Create new lists for each Athlete, and then populate it with the unique items found in each existing list.'''
+    
+unique_James = []
+    for each_t in James:                   # Iterate over the existing data. 
+        if each_t not in unique_James:     # If the data item ISN'T already in the new list.
+            unique_James.append(each_t)    # Append the unique data item to new list. 
+print(unique_James[0:3])                   # Slice the first three data items from the list and display them.  
+
+unique_Julie = []
+    for each_t in Julie:                   
+        if each_t not in unique_Julie:
+            unique_Julie.append(each_t)
+print(unique_Julie[0:3]) 
+
+unique_Mikey = []
+    for each_t in Mikey:                    
+        if each_t not in unique_Mikey:
+            unique_Mikey.append(each_t)
+print(unique_Mikey[0:3]) 
+
+unique_Sarah = []
+    for each_t in Sarah:                    
+        if each_t not in unique_Sarah:
+            unique_Sarah.append(each_t)
+print(unique_Sarah[0:3]) 
+

@@ -22,3 +22,7 @@
       - Simply import the module at the IDLE or via Interactive Shell to use it:
           
           $ import nester_function
+
+   # *lists*
+      - lists folder has an implementation that read from data files, store their data in lists, sanitizes the data in a
+        uniform format, and then sorts and displays the data on the screen. 

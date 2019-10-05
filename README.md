@@ -1,4 +1,4 @@
-# Python3
+# Python3 [![Python]
   
    # *basics*
     - basics folder has some basics examples about starting with Python. 
